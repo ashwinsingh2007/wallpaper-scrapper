@@ -1,0 +1,49 @@
+Arguments: 
+  /home/peoplegrove/.nvm/versions/node/v8.9.4/bin/node /home/peoplegrove/.nvm/versions/node/v8.9.4/bin/yarn install
+
+PATH: 
+  /home/peoplegrove/google-cloud-sdk/bin:/home/peoplegrove/.nvm/versions/node/v8.9.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.9.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/projects/react_project/scrappy-master/package.json: Unexpected token } in JSON at position 422
+      at JSON.parse (<anonymous>)
+      at /home/peoplegrove/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/home/peoplegrove/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /home/peoplegrove/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "wallpaper scrap",
+    "version": "0.0.1",
+    "description": "Wallpaper Downloader",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "chalk": "^0.5.1",
+      "cheerio": "^0.18.0",
+      "gm": "^1.17.0",
+      "inquirer": "^0.8.0",
+      "js-yaml": "^3.2.7",
+      "request": "^2.51.0"
+    },
+    "author": "Ashwin Singh <legend.ashwini07@gmail.com>",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

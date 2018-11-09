@@ -1,0 +1,18 @@
+{
+  "name": "wallpaper-scrap",
+  "version": "0.0.1",
+  "description": "Wallpaper Downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "cheerio": "^0.18.0",
+    "gm": "^1.17.0",
+    "inquirer": "^0.8.0",
+    "js-yaml": "^3.2.7",
+    "request": "^2.51.0"
+  },
+  "author": "Ashwin Singh <legend.ashwini07@gmail.com>"
+}
